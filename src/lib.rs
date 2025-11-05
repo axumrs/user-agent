@@ -62,7 +62,7 @@ pub fn all_user_agents() -> &'static [&'static str] {
 
 /// 通过指定领域随机获取一个 User-Agent
 #[cfg(feature = "random")]
-pub fn user_agent_with_domain(domain: Domain) -> &'static str {
+fn user_agent_with_domain(domain: Domain) -> &'static str {
     let uas = match domain {
         Domain::All => all_user_agents(),
         Domain::Desktop => desktop_user_agents(),
