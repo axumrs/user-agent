@@ -1,0 +1,12 @@
+[package]
+name = "user-agent"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lazy_static = "1.5.0"
+rand = { version = "0.9", optional = true }
+
+[features]
+default = ["random"]
+random = ["rand"]
