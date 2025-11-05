@@ -18,14 +18,14 @@
 
 ```toml
 [dependencies]
-user-agent = { git = "https://github.com/axumrs/user-agent" }
+user-agent = { git = "https://github.com/axumrs/user-agent.git" }
 ```
 
 如果不需要随机获取单条 user agent 功能：
 
 ```toml
 [dependencies]
-user-agent = { git = "https://github.com/axumrs/user-agent", default-features = false }
+user-agent = { git = "https://github.com/axumrs/user-agent.git", default-features = false }
 ```
 
 ## API 列表
