@@ -1,11 +1,11 @@
 [package]
 name = "user-agent"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 
 [dependencies]
-lazy_static = "1.5"
-rand = { version = "0.9", optional = true }
+#lazy_static = "1.5"
+rand = { version = "0.10", optional = true }
 
 [features]
 default = ["random"]
